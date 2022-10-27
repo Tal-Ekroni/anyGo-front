@@ -1,0 +1,133 @@
+.stay-details-section {
+    .stay-details-container {
+        color: $clr2;
+        font-family: circular;
+        font-size: 1rem;
+        width: 100%;
+        // border-bottom: 0.5px solid lightgray;
+        padding-top: 100px;
+        & .details-main-conatiner {
+            border-bottom: 0.5px solid lightgray;
+        }
+        & .asset-desc-container {
+            // width: 650px;
+            border-bottom: 0.5px solid lightgray;
+            & .asset-desc {
+                padding: 20px 0;
+                overflow: hidden;
+                text-overflow: ellipsis;
+                & p {
+                    line-height: 1.5rem;
+                    font-size: 1rem;
+                }
+            }
+        }
+    }
+    .asset-info {
+        p {
+            font-size: 1rem;
+            margin-top: 8px;
+            span {
+                font-family: circular-book;
+            }
+        }
+    }
+    .stay-info-conatiner {
+        line-height: 2rem;
+    }
+
+    .details-right-container {
+        width: 100%;
+    }
+
+    .details-left-container {
+        width: 100%;
+        margin-top: 50px;
+    }
+    .host-info-container {
+        padding: 0 5px;
+        padding-bottom: 24px;
+    }
+    .asset-desc-container {
+        padding: 0 5px;
+    }
+    .asset-sum-container {
+        padding: 0 5px;
+    }
+    .amenities-container {
+        padding: 0 5px;
+    }
+    .dates-container {
+        padding: 0 5px;
+    }
+
+    .DateRangePickerInput {
+        display: flex;
+        max-width: 450px;
+        width: 100%;
+    }
+    @include for-mobile-layout {
+        .details-main-conatiner {
+            display: flex;
+            flex-direction: column-reverse;
+        }
+    }
+    @include for-narrow-layout {
+        .details-main-conatiner {
+            display: flex;
+            flex-direction: column-reverse;
+        }
+    }
+    @include for-normal-layout {
+        .details-main-conatiner {
+            // display: block;
+            flex-direction: row;
+        }
+        .host-info-container {
+            padding: 0;
+            padding-bottom: 24px;
+        }
+        .asset-sum-container {
+            padding: 0;
+        }
+        .amenities-container {
+            padding: 0;
+        }
+        .dates-container {
+            padding: 0 5px;
+        }
+        .asset-desc-container {
+            padding: 0;
+            padding-top: 30px;
+            padding-bottom: 30px;
+        }
+        .stay-info-conatiner {
+            // line-height: 1.25rem;
+            line-height: 2rem;
+        }
+        .details-left-container {
+            margin-top: 0;
+            min-height: 850px;
+            max-height: 1000px;
+            width: 58%;
+            padding: 0;
+            padding-top: 20px;
+        }
+        .details-right-container {
+            min-height: 850px;
+            max-height: 1000px;
+            width: 42%;
+            padding: 0;
+        }
+    }
+
+    @include for-wide-layout {
+        .checkout-container {
+            margin-bottom: 24px;
+        }
+    }
+    @media (min-width: $wide-breakpoint) {
+    }
+    @media (min-width: $wide-breakpoint) {
+    }
+}

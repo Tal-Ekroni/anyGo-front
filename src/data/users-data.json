@@ -1,0 +1,103 @@
+[
+    {
+        "_id": "51399391",
+        "fullname": "Davit Pok",
+        "imgUrl": "https://a0.muscache.com/im/pictures/fab79f25-2e10-4f0f-9711-663cb69dc7d8.jpg?aki_policy=profile_small",
+        "isHost": true,
+        "username": "Davit",
+        "password": "secret",
+        "emailAddress": "user1@gmail.com",
+        "notifications": [],
+        "myTrips": [],
+        "orders": [],
+        "mySaves":[],
+        "myStays": [
+            {
+                "_id": "1000643546",
+                "name": "Ribeira Charming Duplex"
+            },
+            {
+                "_id": "103996300646546",
+                "name": "Taboola salad"
+            },
+            {
+                "_id": "10963006546",
+                "name": "JabrukLandia"
+            },
+            {
+                "_id": "1567846",
+                "name": "Paris"
+            }
+        ]
+    },
+    {
+        "_id": "51399393",
+        "fullname": "Lily Duarte",
+        "imgUrl": "https://a0.muscache.com/im/pictures/fab79f25-2e10-4f0f-9711-663cb69dc7d8.jpg?aki_policy=profile_small",
+        "isHost": true,
+        "username": "Lily ",
+        "password": "secret",
+        "emailAddress": "user2@gmail.com",
+        "notifications": [],
+        "myTrips": [],
+        "orders": [],
+        "mySaves":[],
+        "myStays": []
+    },
+    {
+        "_id": "u103",
+        "fullname": "Dianna Mathers",
+        "imgUrl": " ",
+        "isHost": false,
+        "username": "Dianna",
+        "password": "secret",
+        "emailAddress": "user3@gmail.com",
+        "notifications": [],
+        "myTrips": [],
+        "orders": [],
+        "mySaves":[],
+        "myStays": []
+    },
+    {
+        "_id": "u101",
+        "fullname": "Elvira Priestley",
+        "imgUrl": "/img/img2.jpg",
+        "isHost": false,
+        "username": "Elvira",
+        "password": "secret",
+        "emailAddress": "user1@gmail.com",
+        "notifications": [],
+        "myTrips": [],
+        "orders": [],
+        "mySaves":[],
+        "myStays": []
+    },
+    {
+        "_id": "u102",
+        "fullname": "Houston Anderson",
+        "imgUrl": " ",
+        "isHost": true,
+        "username": "Houston",
+        "password": "secret",
+        "emailAddress": "user2@gmail.com",
+        "notifications": [],
+        "myTrips": [],
+        "orders": [],
+        "mySaves":[],
+        "myStays": []
+    },
+    {
+        "_id": "u106",
+        "fullname": "Macauley Rodríguez",
+        "imgUrl": "/img/img2.jpg",
+        "isHost": false,
+        "username": "Macauley",
+        "password": "secret",
+        "emailAddress": "user6@gmail.com",
+        "notifications": [],
+        "myTrips": [],
+        "orders": [],
+        "mySaves":[],
+        "myStays": []
+    }
+]

@@ -1,0 +1,41 @@
+// .date-pick {
+//     width: 350px;
+//     background-color: $clr1;
+//     & > * {
+//         background-color: $clr1;
+//         width: 100%;
+//     }
+//     .rdrDateDisplayWrapper {
+//         background-color: $clr1;
+//     }
+//     .rdrMonth {
+//         width: 100%;
+//     }
+//     .rdrDay {
+//         width: 35px;
+//         height: 35px;
+//     }
+//     .rdrDateDisplayWrapper {
+//         display: none;
+//     }
+// }
+
+// .date-pick {
+//     position: absolute;
+//     bottom: -310px;
+//     z-index: 5;
+//     width: 100%;
+//     border: 1px solid #00000030;
+//     border-radius: 13px;
+//     box-shadow: 0 6px 16px -2px #d8d8d8;
+//     overflow: Z;
+//     > div {
+//         background-color: $clr1;
+//         > div {
+//             background-color: $clr1;
+//             > div {
+//                 background-color: $clr1;
+//             }
+//         }
+//     }
+// }

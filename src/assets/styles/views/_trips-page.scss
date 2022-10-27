@@ -1,0 +1,97 @@
+.trips-container {
+    min-height: calc(100vh-280px);
+    .trip-preview-container {
+        cursor: pointer;
+        // border: 0.5px solid #717171;
+        border-radius: 15px;
+        overflow: hidden;
+        width: 300px;
+        height: 300px;
+    }
+    .trips-img-container {
+        height: calc(100vh - 170px);
+        width: 100%;
+    }
+    .trip-preview-details {
+        padding: 10px 0;
+    }
+    & .trips-title-container {
+        height: 36px;
+        margin: 22px 0;
+        font-family: circular-bold;
+        & p {
+            line-height: 1.2rem;
+        }
+    }
+    & .trip-img-container {
+        height: 200px;
+        overflow: hidden;
+        & img {
+            object-fit: cover;
+            height: 200px;
+        }
+    }
+    & a:hover {
+        text-decoration: none;
+    }
+    & .slick-slider {
+        position: relative;
+        height: calc(100% -100px);
+        button {
+            margin: -5px 0;
+        }
+        &:hover {
+            .slick-prev {
+                opacity: 1;
+            }
+            .slick-next {
+                opacity: 1;
+            }
+        }
+        .slick-prev:before,
+        .slick-next:before {
+            font-size: 30px !important;
+        }
+        .slick-prev,
+        .slick-next {
+            position: absolute;
+            top: 50%;
+            left: 0px;
+            z-index: 5;
+            opacity: 0;
+            transform: translateY(-50%);
+        }
+        .slick-next {
+            right: 10px;
+            left: unset;
+        }
+
+        .slick-dots {
+            bottom: 10px;
+            li.slick-active button::before {
+                color: whitesmoke;
+            }
+        }
+    }
+    .trip-preview-details {
+        & :first-child {
+            margin-bottom: 5px;
+        }
+        p.cancel-btn {
+            font-family: circular-book;
+            text-decoration: underline;
+        }
+    }
+}
+// .trip-img {
+//     height: 100px;
+// }
+
+.trip-list {
+    flex-wrap: wrap;
+    gap: 50px;
+    padding-bottom: 25px;
+}
+.user-cancel {
+    font-family: circular-bold;
+}

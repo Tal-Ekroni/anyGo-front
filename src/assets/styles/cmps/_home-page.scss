@@ -1,0 +1,231 @@
+.home-page {
+    & .hero {
+        left: 0;
+        background-image: url(../../img/hero.png);
+        height: 92vh;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        box-shadow: inset 0px 1px 20px 0px #5a5a5a;
+        .where-to-go {
+            position: relative;
+            top: 10px;
+            h3 {
+                font-family: circular-book;
+                font-size: 18px;
+            }
+        }
+        .flex-btn {
+            a {
+                -webkit-text-fill-color: transparent;
+                background: -webkit-linear-gradient(90deg, #6f019c 0%, #c6017e 135.12%);
+                background: -moz-linear-gradient(90deg, #6f019c 0%, #c6017e 135.12%);
+                background: linear-gradient(90deg, #6f019c 0%, #c6017e 135.12%);
+                background-clip: -webkit-text;
+                -webkit-background-clip: -webkit-text;
+                -webkit-background-clip: text;
+            }
+            position: absolute;
+            top: 46px;
+            background-color: $clr1;
+            box-shadow: 0px 6px 16px #0000002b;
+            font-size: 1.125rem;
+            font-family: circular-bold;
+            height: 60px;
+            width: 200px;
+            border-radius: 3rem;
+            transition: 0.3s;
+            &:hover {
+                box-shadow: 0px 6px 16px #00000066;
+            }
+        }
+    }
+
+    & .sug-loc {
+        margin-top: 20px;
+        margin-bottom: 50px;
+        ::-webkit-scrollbar {
+            // width: 0;
+            // background-color: transparent;
+            display:none;
+        }
+        h2 {
+            font-family: circular-bold;
+        }
+        & .locations {
+            display: grid;
+            grid-template-columns: repeat(4, minmax(150px, 1fr));
+            // gap: 24px 150px;
+            margin-top: 30px;
+            @include for-mobile-layout {
+                max-width: calc(100vw - 2rem);
+                display: grid;
+                gap: 40px 100px;
+                overflow-x: auto;
+            }
+            @include for-narrow-layout {
+                max-width: 700px;
+                overflow-x: auto;
+                display: grid;
+                gap: 40px 100px;
+            }
+            @include for-normal-layout {
+                display: grid;
+                grid-template-columns: repeat(auto-fill, minmax(4, 1fr));
+                max-width: unset;
+                overflow-x: unset;
+                gap: 24px;
+            }
+            @include for-wide-layout {
+                // gap: 24px 60px;
+
+            }
+            @include for-extra-wide-layout {
+                grid-template-columns: repeat(4, minmax(150px, 1fr));
+                max-width: unset;
+                overflow-x: unset;
+                gap: 24px;
+            }
+
+            & .loc-section {
+                    min-width: 20vw;
+                    .loc-img {
+                    height: 60px;
+                    width: 60px;
+                    margin-right: 10px;
+                    border-radius: 10%;
+                    cursor: pointer;
+                }
+                .city-name {
+                    font-family: circular-bold;
+                    width: 100px;
+                }
+                .country-name {
+                    color: $clr5;
+                    width: 130px;
+                }
+                // @include for-wide-layout{
+                    // min-width: 20vw;
+                // }
+            }
+        }
+    }
+    & .live-any {
+        margin-bottom: 56px;
+        font-family: circular-bold;
+        h2 {
+            font-family: circular-bold;
+        }
+        ::-webkit-scrollbar {
+            // width: 0;
+            // background-color: transparent;
+            display:none;
+        }
+        .live-loc {
+            gap: 10px;
+            margin-top: 15px;
+            @include for-mobile-layout {
+                .live-card {
+                    .live-img {
+                        height: 225px;
+                        width: 225px;
+                    }
+                }
+                overflow-x: auto;
+                max-width: calc(100vw - 2rem);
+            }
+            @include for-narrow-layout {
+                .live-card {
+                    .live-img {
+                        height: 180px;
+                        width: 180px;
+                    }
+                }
+                overflow-x: unset;
+            }
+            @include for-normal-layout {
+                .live-card {
+                    .live-img {
+                        height: 225px;
+                        width: 225px;
+                    }
+                }
+                overflow-x: unset;
+                max-width: unset;
+            }
+
+            @include for-wide-layout {
+                .live-card {
+                    .live-img {
+                        height: 18vw;
+                        width: 18vw;
+                    }
+                }
+            }
+            @include for-wider-layout {
+                .live-card {
+                    .live-img {
+                        height: 20vw;
+                        width: 20vw;
+                    }
+                }
+            }
+            @include for-extra-wide-layout {
+                .live-card {
+                    .live-img {
+                        height: 20vw;
+                        width: 20vw;
+                    }
+                }
+            }
+            .live-img {
+                border-radius: 3%;
+                // height: 20vw;
+                // width: 20vw;
+                // max-height: 350px;
+                // max-width: 350px;
+                cursor: pointer;
+            }
+            p {
+                font-size: 1rem;
+            }
+        }
+    }
+    & .host-banner {
+        background-image: url(../../img/host-banner.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 500px;
+        color: white;
+        padding: 100px;
+        border-radius: 10px;
+        margin-bottom: 90px;
+        h1 {
+            font-size: 3rem;
+        }
+        & p {
+            font-size: 1.125rem;
+            margin-top: 15px;
+            max-width: 300px;
+        }
+        & .try-host-btn {
+            background-color: $clr1;
+            font-family: circular-bold;
+            font-size: 1rem;
+            color: $clr2;
+            min-height: 45px;
+            margin-top: 40px;
+            width: 135px;
+            text-align: center;
+            border-radius: 8px;
+        }
+        @include for-mobile-layout {
+            max-width: calc(100vw - 2rem);
+        }
+    }
+}

@@ -1,0 +1,54 @@
+.read-more {
+    cursor: pointer;
+}
+.popup-container {
+    position: absolute;
+    border: 1px solid;
+    margin: 0 auto;
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 10px;
+    transform: translateY(-20%);
+    .close-btn-container {
+        height: 20px;
+        justify-content: flex-end;
+        align-items: center;
+        .close-btn {
+            height: 20px;
+            width: 20px;
+            border-radius: 10px;
+            font-size: 1rem;
+            color: black;
+            padding: 0;
+            background-color: inherit;
+            &:hover {
+                color: white;
+                background-color: darken($color: lightgray, $amount: 10%);
+            }
+            .close-icon {
+                height: 1rem;
+                padding: 0;
+            }
+        }
+    }
+    .popup-txt-container {
+        font-size: 0.875rem;
+        text-align: center;
+    }
+    &.small {
+        max-width: 200px;
+        max-height: 200px;
+    }
+    &.short {
+        max-width: 400px;
+        max-height: 300px;
+    }
+    &.medium {
+        max-height: 400px;
+        max-width: 400px;
+    }
+    &.large {
+        max-height: 600px;
+        max-width: 600px;
+    }
+}

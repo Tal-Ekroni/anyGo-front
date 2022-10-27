@@ -1,0 +1,142 @@
+.host-page-container {
+    padding-top: 100px;
+    min-height: calc(100vh-280px);
+    margin-bottom: 50px;
+}
+
+.host-container {
+    margin-top: 20px;
+    h2 {
+        margin-bottom: 50px;
+    }
+}
+.chart-container {
+    width: 350px;
+    margin: 0 auto;
+}
+
+.approve-order-btn {
+    color: black;
+}
+
+.orders-container {
+    min-height: 500px;
+    margin-top: 10px;
+    background-color: rgb(232, 246, 250);
+    border-radius: 8px;
+    padding: 30px 20px 10px 20px;
+    .order-preview-container {
+        border: 0.5px solid lightgray;
+        border-radius: 15px;
+        overflow: hidden;
+        width: 350px;
+        height: 270px;
+    }
+    .order-username {
+        font-family: circular-bold;
+    }
+    .order-preview-details {
+        padding: 10px;
+        & > * {
+            margin: 10px 0;
+        }
+    }
+    & .orders-title-container {
+        height: 36px;
+        margin-bottom: 24px;
+        font-family: circular-bold;
+        & p {
+            line-height: 1.2rem;
+        }
+    }
+    & .order-img-container {
+        height: 200px;
+        overflow: hidden;
+        & img {
+            object-fit: cover;
+            // height: 200px;
+        }
+    }
+    & a:hover {
+        text-decoration: none;
+    }
+    & .slick-slider {
+        position: relative;
+        height: calc(100% -100px);
+        button {
+            margin: -5px 0;
+        }
+        &:hover {
+            .slick-prev {
+                opacity: 1;
+            }
+            .slick-next {
+                opacity: 1;
+            }
+        }
+        .slick-prev:before,
+        .slick-next:before {
+            font-size: 30px;
+        }
+        .slick-prev,
+        .slick-next {
+            position: absolute;
+            top: 50%;
+            left: 0px;
+            z-index: 5;
+            opacity: 0;
+            transform: translateY(-50%);
+        }
+        .slick-next {
+            right: 10px;
+            left: unset;
+        }
+
+        .slick-dots {
+            bottom: 10px;
+            li.slick-active button::before {
+                color: whitesmoke;
+            }
+        }
+    }
+}
+.order-user-info {
+    align-items: flex-end;
+    height: 50px;
+    .user-img-container {
+        height: 50px;
+        width: 50px;
+        border-radius: 50%;
+        overflow: hidden;
+    }
+}
+.order-img {
+    height: 100px;
+}
+
+.order-list {
+    flex-wrap: wrap;
+    gap: 50px;
+    padding-bottom: 25px;
+}
+
+// .host-stays-reviews :not(:nth-child(1)){
+// }
+.host-stays-reviews :nth-child(2) {
+    margin: 0 5px;
+    font-family: circular-bold;
+    font-size: 0.875rem;
+}
+.remove-stay-btn{
+    border: none;
+    color: black;
+    background-color: inherit;
+    font-family: circular-book;
+    font-size: 0.875rem;
+}
+.stay-link{
+    color: black;
+    text-decoration: none;
+    font-family: circular-book;
+    font-size: 0.875rem;
+}

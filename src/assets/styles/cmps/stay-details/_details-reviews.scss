@@ -1,0 +1,169 @@
+.reviews-section-container {
+    .reviews-list-container {
+        ::-webkit-scrollbar {
+            width: 0;
+            background-color: transparent;
+            display: none;
+        }
+        & section {
+            width: 100%;
+        }
+    }
+    .read-more {
+        margin-inline-start: 10px;
+        font-family: circular-bold;
+    }
+    .show-reviews-btn {
+        z-index: 5;
+        min-width: 210px;
+        max-width: 100%;
+        height: 50px;
+        border: 1px solid $clr2;
+        color: $clr2;
+        font-size: 1rem;
+        line-height: 1.43rem;
+        font-weight: 600;
+        border-radius: 8px;
+        margin: 20px 0;
+        background-color: $clr1;
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+    .reviews-section-title {
+        margin-top: 40px;
+        line-height: 1.625rem;
+        font-size: 1.2rem;
+        font-family: circular-book;
+        vertical-align: middle;
+        align-items: center;
+        > * {
+            margin-inline-end: 5px;
+        }
+    }
+    .reviews-container {
+        width: 100%;
+        // border: 1px solid black;
+        list-style: none;
+        margin-top: 30px;
+        gap: 20px;
+        flex-wrap: wrap;
+        padding: 0;
+        max-height: 420px;
+        overflow: hidden;
+        overflow-y: scroll;
+        border: 0.5px solid lightgray;
+
+        & .review-card-container {
+            min-width: 300px;
+            width: 100%;
+            height: 120px;
+            border-radius: 15px;
+            // box-shadow: 17px -4px 15px 1px rgba(0, 0, 0, 0.07);
+        }
+
+        & .review-user-info {
+            padding-top: 5px;
+            width: 95%;
+            margin: 0 auto;
+            & .review-username-container {
+                align-items: flex-end;
+            }
+        }
+        & .review-stars-container {
+            width: 95%;
+            margin: 0 auto;
+            margin-bottom: 5px;
+        }
+        & .review-txt-container {
+            padding-top: 10px;
+            width: 95%;
+            margin: 0 auto;
+        }
+    }
+    .review-username {
+        font-family: circular-bold;
+    }
+    .txt-info-container {
+        margin-inline-start: 15px;
+        align-items: self-start;
+    }
+    .user-review-img-container {
+        height: 44px;
+        border-radius: 22px;
+        background-color: blue;
+        width: 44px;
+        overflow: hidden;
+        & img {
+            // overflow: hidden;
+            height: 100%;
+            width: 100%;
+        }
+    }
+    .review-avg-container {
+        padding: 25px 0;
+        flex-direction: column;
+    }
+    .right-review {
+        padding-inline-start: 12px;
+        width: 100%;
+    }
+    .left-review {
+        padding-inline-start: 12px;
+        width: 100%;
+    }
+    .line {
+        height: 2rem;
+        justify-content: space-between;
+    }
+    .line-title {
+        width: 150px;
+        font-family: circular-bold;
+    }
+    .review-score {
+        font-family: circular-bold;
+        padding-inline-end: 20px;
+        font-size: 0.875rem;
+    }
+    .loader-container {
+        width: 175px;
+    }
+    .line-loader-container {
+        width: 115px;
+        height: 5px;
+        background-color: lightgray;
+    }
+    .line-loader {
+        height: 5px;
+        background-color: $clr2;
+    }
+
+    @include for-narrow-layout {
+        .reviews-container {
+            max-height: 650px;
+            overflow: auto;
+            overflow-y: hidden;
+            border: none;
+            .review-card-container {
+                max-width: 40%;
+                width: 40%;
+            }
+        }
+        .reviews-list-container section {
+            min-height: 350px;
+        }
+    }
+    @include for-normal-layout {
+        .review-avg-container {
+            flex-direction: row;
+        }
+        .left-review {
+            width: 40%;
+            max-width: 40%;
+        }
+        .right-review {
+            width: 40%;
+            max-width: 40%;
+        }
+    }
+}

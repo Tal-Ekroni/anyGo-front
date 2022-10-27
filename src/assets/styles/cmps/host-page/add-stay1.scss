@@ -1,0 +1,73 @@
+.add-form-container {
+    width: 100%;
+    margin-top: 20px;
+    min-height: 50vh;
+    justify-content: center;
+    .add-form {
+        align-items: center;
+        width: 80%;
+    }
+    .add-curr-tab-title {
+        width: 100%;
+    }
+    .add-basic-info-container {
+        width: 100%;
+        min-height: 320px;
+    }
+    .add-form-line {
+        height: 50px;
+        width: 100%;
+        & input {
+            width: 200px;
+        }
+        & .add-line {
+            font-family: circular-bold;
+            font-size: 1.2rem;
+        }
+    }
+    .add-desc-line {
+        width: 100%;
+        & .add-line {
+            height: 50px;
+            display: flex;
+            align-items: center;
+            font-family: circular-bold;
+            font-size: 1.2rem;
+        }
+    }
+    .add-stay-select {
+        width: 300px;
+    }
+    // .asset-desc-input {
+    // }
+    .add-page-btn {
+        margin-top: 25px;
+        height: 50px;
+        text-align: center;
+        justify-content: center;
+        border-radius: 8px;
+        font-size: 1rem;
+        font-family: circular-bold;
+        color: $clr1;
+        &.next-page-btn {
+            background-color: $clr10;
+        }
+        &.add-stay-btn {
+            background-image: radial-gradient(
+                circle at center,
+                #ff385c 0%,
+                #e61e4d 27.5%,
+                #e31c5f 40%,
+                #d70466 57.5%,
+                #bd1e59 75%,
+                #bd1e59 100%
+            );
+        }
+    }
+    .MuiInput-root {
+        width: 300px;
+        & input {
+            width: 100%;
+        }
+    }
+}

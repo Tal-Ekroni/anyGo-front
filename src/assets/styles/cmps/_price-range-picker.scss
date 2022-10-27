@@ -1,0 +1,67 @@
+.price-range-container {
+  background-color: $clr1;
+  border: 0.5px solid rgba(118, 118, 118, 0.28);
+  border-radius: 12px;
+  width: 320px;
+  height: 170px;
+  z-index: 8;
+  justify-content: center;
+  .price-slider-container {
+    width: 100%;
+    > span {
+      width: 95%;
+      text-align: center;
+    }
+  }
+  .stays-price-avg {
+    padding-top: 15px;
+    text-align: center;
+    font-family: circular-book;
+  }
+  .MuiBox-root {
+    &.css-yuob64 {
+      margin: 0;
+    }
+  }
+  .MuiBox-root {
+    width: 90%;
+    z-index: 8;
+    .MuiSlider-root {
+      padding: 35px 0px;
+    }
+    .MuiSlider-track,
+    .MuiSlider-thumb {
+      color: $clr6;
+    }
+    .picks-container {
+      display: flex;
+      justify-content: space-between;
+      // margin: 0 5px;
+      z-index: 8;
+
+      .min-price,
+      .max-price {
+        border: 1px solid lightgray;
+        border-radius: 8px;
+      }
+      .price-range-span {
+        font-size: 12px;
+        font-family: circular-light;
+        z-index: 2;
+        padding-left: 5px;
+      }
+      input {
+        margin: 0;
+        padding: 0;
+        outline: unset;
+        border: none;
+        border-radius: 13px;
+        height: 26px;
+        width: 70px;
+        text-align: center;
+        color: $clr7;
+        font-size: 14px;
+      }
+    }
+  }
+}

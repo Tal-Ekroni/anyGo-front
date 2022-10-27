@@ -1,0 +1,75 @@
+.location-modal {
+    position: absolute;
+    width: 322px;
+    height: 370px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    border-radius: 13px;
+    background-color: $clr1;
+    top: 55px;
+    left: 0px;
+    z-index: 3;
+    margin-top: 12px;
+    font-family: circular-light;
+   
+    p {
+        font-family: unset;
+    }
+    .location-city {
+        font-family: circular-medium;
+        font-size: 16px;
+    }
+    .location-country {
+        font-size: 14px;
+        font-family: circular-light;
+    }
+    .screen {
+        position: fixed;
+        inset: 0;
+        z-index: -1;
+        height: 9999px;
+        width: 9999px;
+    }
+
+    & .location-card {
+        z-index: 5;
+        background-color: white;
+        padding-top: 16px !important;
+        padding-bottom: 16px !important;
+        padding-right: 4px !important;
+        min-width: 330px;
+
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        width: 100%;
+        grid-gap: 20px;
+        gap: 20px;
+        padding: 20px 0 20px 20px;
+        cursor: pointer;
+        &:not(:last-child) {
+            border-bottom: 1px solid rgb(235, 235, 235);
+        }
+        .loc-img {
+            height: 50px;
+            width: 50px;
+            margin-right: 10px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .location-city {
+            font-family: circular-book;
+            width: 100px;
+            font-size: 16px;
+        }
+        .location-country {
+            color: $clr10;
+            width: 130px;
+            font-family: circular-light;
+            font-size: 14px;
+
+
+        }
+       
+    }
+}

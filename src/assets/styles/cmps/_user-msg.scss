@@ -1,0 +1,33 @@
+.user-msg {
+    color: white;
+    padding: 12px;
+    font-size: 0.875rem;
+    z-index: 10;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    background-color: $clr10;
+    border-radius: 5px;
+    height: 40px;
+    width: 250px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.068823529411764705);
+}
+.user-msg button {
+    float: right;
+    border: 0;
+    border-radius: 50%;
+    width: 16px;
+    background-color: transparent;
+    font-size: 0.875rem;
+}
+
+.user-msg.success {
+    // background-color: rgb(41, 189, 73);
+    color: $clr1;
+}
+.user-msg.danger {
+    color: $clr1;
+}

@@ -1,0 +1,332 @@
+[
+    {
+        "_id": "192837",
+        "name": "Charming garden home",
+        "assetType": "Entire home",
+        "uniqueStay": true,
+        "imgUrls": [
+            "https://a0.muscache.com/im/pictures/e83e702f-ef49-40fb-8fa0-6512d7e26e9b.jpg?aki_policy=large",
+            "https://media.istockphoto.com/photos/modern-living-room-interior-3d-render-picture-id1293762741?s=612x612",
+            "https://images.unsplash.com/photo-1493809842364-78817add7ffb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+        ],
+        "price": 400.00,
+        "summary": "Welcome to my home! I've lived here for quite some years now and I absolutely love it. It's spacious, it has high ceilings and a huge garden, which is really rare in a city like Amsterdam. You get why I don't ever want to leave... ;-) I just renovated the place, so everything is new and it's just the way I like it. Please make sure you make yourself at home, in this wonderful neighborhood with everything nearby. You'll love it too, I'm sure!",
+        "capacity": 2,
+        "amenities": [
+            "TV",
+            "Wifi",
+            "Kitchen",
+            "Smoking allowed",
+            "Pets allowed",
+            "Cooking basics"
+        ],
+        "host": {
+            "_id": "51399391",
+            "fullname": "Davit Pok",
+            "imgUrl": "https://a0.muscache.com/im/pictures/fab79f25-2e10-4f0f-9711-663cb69dc7d8.jpg?aki_policy=profile_small"
+        },
+        "loc": {
+            "country": "Amsterdam ",
+            "countryCode": "PT",
+            "address": "Amsterdam , Netherlands",
+            "lat": 52.357994,
+            "lng": 4.868648
+        },
+        "reviews": [
+            {
+                "id": "1211",
+                "txt": "Brilliant location. Stylish and comfy apartment. Would definitely recommend to travellers wanting to stay slightly out of the centre but within a great local neighbourhood.",
+                "cleanliness": 5,
+                "communication": 3,
+                "checkIn": 4,
+                "accuracy": 5,
+                "location": 5,
+                "value": 4,
+                "by": {
+                    "_id": "u102",
+                    "fullname": "Matt",
+                    "imgUrl": "/img/img2.jpg"
+                }
+            },
+            {
+                "id": "111131",
+                "txt": "This place is exactly as described, perfectly located for easy access to Vondelpark, the museum district and West Amsterdam. The place is bright and sunny with a lovely garden. We would definitely stay here again, no hesitations.",
+               "cleanliness": 5,
+                "communication": 4,
+                "checkIn": 4,
+                "accuracy": 5,
+                "location": 5,
+                "value": 5,
+                "by": {
+                    "_id": "u102",
+                    "fullname": "Chris",
+                    "imgUrl": "/img/img2.jpg"
+                }
+            },
+            {
+                "id": "34234",
+                "txt": "This was great place near vondelpark. Close enough and far enough away from city center that it makes a great home base. Beautiful home with beautiful plants. I love the Avocado Forest!.",
+               "cleanliness": 4,
+                "communication": 3,
+                "checkIn": 4,
+                "accuracy": 5,
+                "location": 5,
+                "value": 5,
+                "by": {
+                    "_id": "u102",
+                    "fullname": "David",
+                    "imgUrl": "/img/img2.jpg"
+                }
+            },
+            {
+                "id": "9638956",
+                "txt": "This apartment was great! Close to everything especially if you rent bikes at the bike shop down the street. The apartment was super clean when we arrived, and the fresh flowers and stroopwaffels were great. Be sure to take time and enjoy the garden patio, we sure did. We didn't want to leave!",
+               "cleanliness":4,
+                "communication": 4,
+                "checkIn": 5,
+                "accuracy": 5,
+                "location": 5,
+                "value": 5,
+                "by": {
+                    "_id": "u102",
+                    "fullname": "Jeff",
+                    "imgUrl": "/img/img2.jpg"
+                }
+            }
+        ],
+        "bookedDates": [],
+        "likedByUserIds": [
+            "u101",
+            "u102"
+        ]
+    },
+    {
+        "_id": "432341",
+        "name": "Extraordinary Penthouse + Terrace",
+        "assetType": "Entire Penthouse",
+        "uniqueStay": true,
+        "imgUrls": [
+            "https://a0.muscache.com/im/pictures/e83e702f-ef49-40fb-8fa0-6512d7e26e9b.jpg?aki_policy=large",
+            "https://images.unsplash.com/photo-1484154218962-a197022b5858?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=874&q=80",
+            "https://media.istockphoto.com/photos/modern-living-room-interior-3d-render-picture-id1293762741?s=612x612",
+            "https://images.unsplash.com/photo-1493809842364-78817add7ffb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+        ],
+        "price": 55.00,
+        "summary": "Breathtaking High-End Penthouse, private and enormous forest-like balcony, overlooking right above the Carmel Market & the calm sea, located at the heart of the city.The place featuring a spacious brand-new kitchen and living room, fully equipped for your needs.",
+        "capacity": 4,
+        "amenities": [
+            "TV",
+            "Wifi",
+            "Kitchen",
+            "Smoking allowed",
+            "Pets allowed",
+            "Cooking basics"
+        ],
+        "host": {
+            "_id": "51399393",
+            "fullname": "Lily Duarte",
+            "imgUrl": "https://a0.muscache.com/im/pictures/fab79f25-2e10-4f0f-9711-663cb69dc7d8.jpg?aki_policy=profile_small"
+        },
+        "loc": {
+            "country": "Israel",
+            "countryCode": "IL",
+            "address": "Tel Aviv, Israel",
+            "lat": 32.109333,
+            "lng": 34.855499
+        },
+        "reviews": [
+            {
+                "id": "76768",
+                "txt": "Great space, great location. The hosts were easy to reach and we had a great time. If you are travelling with small children be aware there are a lot of stairs and also stairs in the apartment itself.",
+               "cleanliness": 5,
+                "communication":5,
+                "checkIn": 4,
+                "accuracy": 4,
+                "location": 4,
+                "value": 5,
+                "by": {
+                    "_id": "12331",
+                    "fullname": "Ava",
+                    "imgUrl": "/img/img2.jpg"
+                }
+            },
+            {
+                "id": "76767",
+                "txt": "Great location, the apartment was clean and had everything I needed. Matan and Aviad were nice and friendly and responded super fast to every question and request.",
+               "cleanliness": 5,
+                "communication": 4,
+                "checkIn": 5,
+                "accuracy": 5,
+                "location": 5,
+                "value": 5,
+                "by": {
+                    "_id": "12330",
+                    "fullname": "Tsuf",
+                    "imgUrl": "/img/img2.jpg"
+                }
+            },
+            {
+                "id": "76766",
+                "txt": "The location is a 10!!! Excellent location to the heart of Tel Aviv and the beach! The hosts were awesome! They promptly answered all my questions, and even checked in on me.",
+               "cleanliness": 5,
+                "communication": 5,
+                "checkIn": 5,
+                "accuracy": 5,
+                "location": 5,
+                "value": 5,
+                "by": {
+                    "_id": "12329",
+                    "fullname": "Stacy",
+                    "imgUrl": "/img/img2.jpg"
+                }
+            },
+            {
+                "id": "76765",
+                "txt": "Top location, great proximity to the beach and cool restaurants in the market. The balcony is grand and beautiful. A play to relax, not just to sleep in.",
+               "cleanliness": 5,
+                "communication": 3,
+                "checkIn": 3,
+                "accuracy": 4,
+                "location": 5,
+                "value": 5,
+                "by": {
+                    "_id": "12328",
+                    "fullname": "Sarig",
+                    "imgUrl": "/img/img2.jpg"
+                }
+            },
+            {
+                "id": "76764",
+                "txt": " And accommodated everything! The place is amazingly beautiful located in the perfect spot. It was extremely quiet and lovely to be there. I really enjoyed my stay. I was there for close to 2 weeks. And it was just lovely!",
+               "cleanliness": 5,
+                "communication": 4,
+                "checkIn": 4,
+                "accuracy": 5,
+                "location": 5,
+                "value": 5,
+                "by": {
+                    "_id": "12327",
+                    "fullname": "Yehuda",
+                    "imgUrl": "/img/img2.jpg"
+                }
+            }
+        ],
+        "likedByUserIds": [
+            "u101",
+            "u102"
+        ]
+    },
+    {
+        "_id": "3434555",
+        "name": "Loft Style apartment",
+        "assetType": "Entire loft",
+        "uniqueStay": false,
+        "imgUrls": [
+            "https://images.unsplash.com/photo-1484154218962-a197022b5858?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=874&q=80"
+        ],
+        "price": 180.00,
+        "summary": "Fantastic duplex apartment with three bedrooms, located in the historic area of Porto, Ribeira (Cube)...",
+        "capacity": 4,
+        "amenities": [
+            "TV",
+            "Wifi",
+            "Kitchen",
+            "Smoking allowed",
+            "Pets allowed",
+            "Cooking basics"
+        ],
+        "host": {
+            "_id": "51399391",
+            "fullname": "Davit Pok",
+            "imgUrl": "https://a0.muscache.com/im/pictures/fab79f25-2e10-4f0f-9711-663cb69dc7d8.jpg?aki_policy=profile_small"
+        },
+        "loc": {
+            "country": "England",
+            "countryCode": "GB ",
+            "address": "London, England",
+            "lat": 51.509865,
+            "lng": 0.118092
+        },
+        "reviews": [
+            {
+                "id": "198392",
+                "txt": "A great apartment in a east to reach location. Comprehensive and easy to follow instructions for check in as well as regular check ins to make sure our stay was going well.",
+               "cleanliness": 5,
+                "communication": 5,
+                "checkIn": 4,
+                "accuracy": 5,
+                "location": 5,
+                "value": 5,
+                "by": {
+                    "_id": "u102",
+                    "fullname": "Jodie",
+                    "imgUrl": "/img/img2.jpg"
+                }
+            },
+            {
+                "id": "198391",
+                "txt": "Great place which looks exactly like the pictures. Really good location and the host was great at communicating. Would definitely stay again.",
+               "cleanliness": 5,
+                "communication": 5,
+                "checkIn": 4,
+                "accuracy": 4,
+                "location": 5,
+                "value": 4,
+                "by": {
+                    "_id": "u102",
+                    "fullname": "Tamzin",
+                    "imgUrl": "/img/img2.jpg"
+                }
+            },
+            {
+                "id": "198390",
+                "txt": "My friends and I had a great time staying here! Close by to the bars and restaurants of East London! Very comfortable with everything we needed,Thanks!",
+               "cleanliness": 5,
+                "communication": 3,
+                "checkIn": 4,
+                "accuracy": 4,
+                "location": 4,
+                "value": 4,
+                "by": {
+                    "_id": "u102",
+                    "fullname": "Georgia",
+                    "imgUrl": "/img/img2.jpg"
+                }
+            },
+            {
+                "id": "198389",
+                "txt": "We had a great stay at Jose's, the location is excellent. The apartment is lovely with comfortable beds and is nicely designed. It's very quiet despite being on a busy street. We'd definitely stay again next time we're in London.",
+               "cleanliness": 4,
+                "communication": 4,
+                "checkIn": 5,
+                "accuracy": 5,
+                "location": 5,
+                "value": 5,
+                "by": {
+                    "_id": "u102",
+                    "fullname": "Erica",
+                    "imgUrl": "/img/img2.jpg"
+                }
+            },
+            {
+                "id": "198388",
+                "txt": "The flat is very nice and modern. Well equipped with all basics provided of you want to cook. However we found it a bit noisy as the road is just in front. Thanks a lot for the hospitality and the nice chocolate ! The kids loved them.",
+               "cleanliness": 5,
+                "communication": 3,
+                "checkIn": 4,
+                "accuracy": 5,
+                "location": 5,
+                "value": 5,
+                "by": {
+                    "_id": "u102",
+                    "fullname": "Marie",
+                    "imgUrl": "/img/img2.jpg"
+                }
+            }
+        ],
+        "likedByUserIds": [
+            "u101",
+            "u102"
+        ]
+    }
+]

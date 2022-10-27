@@ -1,0 +1,206 @@
+.profile-page-container {
+    .profile-screen {
+        background-color: gray;
+        opacity: 0.5;
+        // background-color: red;
+        position: fixed;
+        inset: 0;
+        // z-index: -1;
+
+        height: 9999px;
+        width: 9999px;
+        pointer-events: all;
+    }
+}
+.user-card-container {
+    max-height: 450px;
+    width: 100%;
+    .user-card {
+        border: 1px solid lightgray;
+        height: 400px;
+        width: 250px;
+        border-radius: 8px;
+        .profile-pic-wrapper {
+            height: 150px;
+            .profile-pic-container {
+                height: 100%;
+                width: 100%;
+            }
+            .profile-img-container {
+                height: 130px;
+                width: 130px;
+                border-radius: 65px;
+                background-color: lightblue;
+                font-size: 70px;
+                color: rgba(128, 128, 128, 0.575);
+                overflow: hidden;
+                .user-icon {
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+            .edit-pencil-container {
+                position: relative;
+                width: 30px;
+                height: 30px;
+                border-radius: 15px;
+                background-color: rgba(211, 211, 211, 0.74);
+                transform: translate(290%, -160%);
+                &:hover {
+                    cursor: pointer;
+                    background-color: darken($color: rgba(211, 211, 211, 0.74), $amount: 10%);
+                }
+                input {
+                    z-index: -1;
+                    width: 100%;
+                    height: 100%;
+                    opacity: -1;
+                    background-color: red;
+                    transform: translateY(-290%);
+                }
+                .edit-pencil {
+                    width: 100%;
+                    height: 100%;
+                    color: rgba(34, 34, 34, 0.877);
+                    font-size: 0.875rem;
+                }
+            }
+        }
+        .user-details-container {
+            height: 170px;
+            padding: 0 10px;
+            .user-details-line {
+                height: 30px;
+                &.title-line {
+                    height: 25px;
+                }
+            }
+        }
+        .edit-user-btn-container {
+            height: 70px;
+            .btn-container {
+                position: relative;
+                width: 200px;
+                height: 48px;
+                padding: 0 0;
+                margin: 0 0;
+                cursor: pointer;
+                border: none;
+                display: grid;
+                grid-template: repeat(10, 1fr) / repeat(10, 1fr);
+                @for $i from 0 to 10 {
+                    .cell:nth-child(10n + #{$i + 1}):hover ~ .content {
+                        --positionX: #{$i};
+                    }
+
+                    .cell:nth-child(n + #{10 * $i + 1}):nth-child(-n + #{10 * ($i + 1)}):hover ~ .content {
+                        --positionY: #{$i};
+                    }
+                }
+                .cell {
+                    width: 100%;
+                    height: 100%;
+                    z-index: 1;
+                }
+                .btn {
+                    background-color: transparent;
+                    border-radius: 8px;
+                    width: 100%;
+                    height: 100%;
+                    border: none;
+                    & * {
+                        font-size: 1.2rem;
+                        color: #fff;
+                    }
+                }
+                .content {
+                    --positionX: 0;
+                    --positionY: 5;
+                    position: absolute;
+                    top: 0;
+                    right: 0;
+                    bottom: 0;
+                    left: 0;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    height: 100%;
+                    border-radius: 8px;
+                    background-image: radial-gradient(
+                        circle at calc((0 + var(--positionX, 0)) * 10%) calc((0 + var(--positionY, 0)) * 5%),
+                        rgb(241, 37, 75) 0%,
+                        rgb(230, 30, 77) 27.5%,
+                        rgb(227, 28, 95) 40%,
+                        rgb(215, 4, 102) 57.5%,
+                        rgb(189, 30, 89) 75%,
+                        rgb(189, 30, 89) 100%
+                    );
+                }
+            }
+
+            .edit-btns-container {
+                background-color: #fff;
+                height: 100%;
+                width: 100%;
+                .user-edit-btn {
+                    width: 40%;
+                    height: 48px;
+                    border-radius: 8px;
+                    color: #fff;
+                    border: none;
+                    font-size: 1.5rem;
+                    text-align: center;
+                    transition: 0.5s;
+                    &.save {
+                        background-color: $bsPrimary;
+                        &:hover {
+                            // background-color: darken($color: $bsPrimary, $amount: 5%);
+                            background-color: lighten($color: $bsPrimary, $amount: 5%);
+                        }
+                    }
+                    &.cancel {
+                        background-color: $bsDanger;
+                        &:hover {
+                            // background-color: darken($color: $bsPrimary, $amount: 5%);
+                            background-color: lighten($color: $bsDanger, $amount: 5%);
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .pic-edit-popup-container {
+        position: relative;
+        width: 100%;
+        height: 80px;
+        border-radius: 15px;
+        background-color: #fff;
+        transform: translateY(-300%);
+        .pic-edit-popup {
+            height: 100%;
+            width: 100%;
+            .pic-popup-line {
+                height: 30px;
+                font-size: 1.2rem;
+                font-family: circular-book;
+                padding: 0 10px;
+                &:hover {
+                    cursor: pointer;
+                    background-color: darken($color: rgb(211, 211, 211), $amount: 10%);
+                }
+                input {
+                    z-index: -1;
+                    width: 100%;
+                    height: 100%;
+                    opacity: -5;
+                    transform: translateY(-100%);
+                }
+            }
+        }
+    }
+}
+
+.user {
+    height: 100%;
+    width: 100%;
+}

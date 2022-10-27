@@ -1,0 +1,136 @@
+.stay-preview {
+    cursor: pointer;
+    color: #484848;
+    a:hover {
+        text-decoration: none;
+    }
+    .slick-slider {
+        position: relative;
+        height: 100%;
+        button {
+            margin: -5px 0;
+        }
+        &:hover {
+            .slick-prev {
+                opacity: 1;
+            }
+            .slick-next {
+                opacity: 1;
+            }
+        }
+        div {
+            max-height: 270px;
+        }
+        .slick-prev:before,
+        .slick-next:before {
+            font-size: 30px !important;
+        }
+        .slick-prev,
+        .slick-next {
+            position: absolute;
+            top: 50%;
+            left: 0px;
+            z-index: 5;
+            opacity: 0;
+            transform: translateY(-50%);
+        }
+        .slick-next {
+            right: 10px;
+            left: unset;
+        }
+        .slick-dots {
+            bottom: 10px;
+            li.slick-active button::before {
+                color: whitesmoke;
+            }
+        }
+        div {
+            height: 100%;
+            width: 100%;
+            margin: 0 0;
+            padding: 0 0;
+            border-radius: 15px;
+            img {
+                height: 100%;
+                border-radius: 15px;
+                object-fit: cover;
+            }
+        }
+    }
+    .preview-details {
+        height: 100px;
+        gap: 5px;
+        font-size: 0.875rem;
+        line-height: 1.0625rem;
+        h3 {
+            font-size: 0.875rem;
+            line-height: 1.0625rem;
+            font-family: circular-light, sans-serif;
+            color: #484848;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            overflow: hidden;
+        }
+        .preview-rating {
+            gap: 4px;
+            padding-bottom: 4px;
+            padding-top: 4px;
+            align-items: center;
+            .preview-rating-amount {
+                font-weight: bolder;
+            }
+            .preview-review-count {
+                gap: 1.5px;
+            }
+            p,
+            span {
+                font-size: 14px;
+            }
+
+            .rating-star {
+                padding-top: 0.9px;
+            }
+        }
+        .stay-style {
+            gap: 4px;
+            padding-bottom: 4px;
+        }
+    }
+
+    .preview-img {
+        position: relative;
+        display: inline-block;
+        flex-grow: 1;
+        height: calc(100% - 100px);
+        margin-bottom: 8px;
+    }
+
+    .preview-price {
+        color: $clr10;
+        padding-top: 4px;
+        padding-bottom: 2px;
+        .preview-price-amount {
+            font-family: circular-medium;
+        }
+    }
+    .MuiSvgIcon-root {
+        position: absolute;
+        top: 9px;
+        z-index: 1;
+        left: 87%;
+        color: $clr6;
+        width: 30px;
+    }
+    .unliked {
+        fill: #222;
+        fill-opacity: 0.7;
+        stroke: white;
+    }
+    @include for-narrow-layout {
+        .slick-slider {
+            div {
+                max-height: 170px;
+            }
+        }
+    }
+}

@@ -1,0 +1,408 @@
+
+[
+    {
+        "_id": "1321fd32s456",
+        "name": "BCN Villa Olimpica Beach",
+        "assetType": "Entire duplex",
+        "uniqueStay": true,
+        "imgUrls": [
+            "../assets/img/idobarc1",
+            "../assets/img/idobarc2",
+            "../assets/img/idobarc3",
+            "../assets/img/idobarc4",
+            "../assets/img/idobarc5"
+        ],
+        "price": 175.00,
+        "summary": "The apartment Villa Olimpica beach is located on the 5th floor of a building with elevator.The living room with warm colors consists of a comfortable sofa in front of a flat-screen TV. You will also have table with 7 chairs, where you will be able to get together for a sunny breakfast or surfing on the internet with the high speed WIFI connection.",
+        "capacity": 5,
+        "amenities": [
+            "TV",
+            "Wifi",
+            "Kitchen",
+            "Smoking allowed",
+            "Pets allowed",
+            "Cooking basics"
+        ],
+        "host": {
+            "_id": "51399391",
+            "fullname": "Davit Pok",
+            "imgUrl": "https://a0.muscache.com/im/pictures/fab79f25-2e10-4f0f-9711-663cb69dc7d8.jpg?aki_policy=profile_small"
+        },
+        "loc": {
+            "country": "Spain",
+            "countryCode": "ES",
+            "address": "Barcelona, Spain",
+            "lat": 41.40279407651066,
+            "lng": 2.204288073227125
+        },
+        "reviews": [
+            {
+                "by": {
+                    "fullname": "Jaime",
+                    "_id": "2314sd3a1d32a",
+                    "imgUrl": "https://a0.muscache.com/im/pictures/fab79f25-2e10-4f0f-9711-663cb69dc7d8.jpg?aki_policy=profile_small"
+                },
+                "createdAt": "23/8/21",
+                "txt": "Highly recommend Lana's apartment. Very clean, smartly decorated and conveniently located in a nice quiet neighborhood.",
+                "id": "1348DF6798",
+                "cleanliness": "5",
+                "communication": "5",
+                "checkIn": "4",
+                "accuracy": "4",
+                "location": "4",
+                "value": "4"
+            },
+            {
+                "createdAt": "28/07/19",
+                "txt": "Alain and Lana’s place is in the most perfect location: close to the metro and just a few blocks from the beach/nightlife. The beds were comfy and the WiFi was fast, which we appreciated. There is also an amazing restaurant on the corner across the street",
+                "id": "1348645gdf64",
+                "by": {
+                    "fullname": "Tara",
+                    "_id": "2314sd3dssda1d32a",
+                    "imgUrl": "https://a0.muscache.com/im/pictures/fab79f25-2e10-4f0f-9711-663cb69dc7d8.jpg?aki_policy=profile_small"
+                },
+                "cleanliness": "4",
+                "communication": "5",
+                "checkIn": "3",
+                "accuracy": "4",
+                "location": "5",
+                "value": "4"
+            },
+            {
+                "by": {
+                    "fullname": "Jennifer",
+                    "_id": "23d23dssda1d32a",
+                    "imgUrl": "https://a0.muscache.com/im/pictures/fab79f25-2e10-4f0f-9711-663cb69dc7d8.jpg?aki_policy=profile_small"
+                },
+                "createdAt": "03/03/19",
+                "txt": "A great place for a quiet get away. Alain and Lana were very easy to work with and helped out a lot with giving us local recommendations. A little far from touristy things but would be great in the summer as you are very close to the beach. Overall, a great place and a fun time!",
+                "id": "13486798",
+                "cleanliness": "3",
+                "communication": "2",
+                "checkIn": "5",
+                "accuracy": "4",
+                "location": "5",
+                "value": "4"
+            },
+            {
+                "createdAt": "02/07/20",
+                "txt": "We were a group of five which worked well, but the three people who had to sleep on the second floor complained about the heat and hot air. But then again they´re three guys and it´s summer.",
+                "id": "1546511144",
+                "by": {
+                    "fullname": "Betino",
+                    "_id": "23d23ds70652a",
+                    "imgUrl": "https://a0.muscache.com/im/pictures/fab79f25-2e10-4f0f-9711-663cb69dc7d8.jpg?aki_policy=profile_small"
+                },
+                "cleanliness": "3",
+                "communication": "4",
+                "checkIn": "5",
+                "accuracy": "3",
+                "location": "5",
+                "value": "3"
+            },
+            {
+                "createdAt": "15/02/20",
+                "txt": "The canoe was our favourite part and we took a little adventure around the lake. In the evening we sat outside and could hear black grouse in the forest.",
+                "id": "1564987231",
+                "by": {
+                    "fullname": "Anita Green",
+                    "_id": "23d23ds7065dsf2a",
+                    "imgUrl": "https://a0.muscache.com/im/pictures/fab79f25-2e10-4f0f-9711-663cb69dc7d8.jpg?aki_policy=profile_small"
+                },
+                "cleanliness": "3",
+                "communication": "3",
+                "checkIn": "4",
+                "accuracy": "4",
+                "location": "5",
+                "value": "3"
+            },
+            {
+                "by": {
+                    "fullname": "Loribeth",
+                    "_id": "23d23ds7064",
+                    "imgUrl": "https://a0.muscache.com/im/pictures/fab79f25-2e10-4f0f-9711-663cb69dc7d8.jpg?aki_policy=profile_small"
+                },
+                "name": "Loribeth",
+                "createdAt": "23/10/20",
+                "txt": "Our group almost didn't book here due to the single bathroom and we were a group of 6 ladies on a mother /daughter trip. That would have been a huge mistake. I am so glad we decided to give it a try. This place is AMAZING!! ",
+                "id": "4561302",
+                "cleanliness": "4",
+                "communication": "2",
+                "checkIn": "5",
+                "accuracy": "4",
+                "location": "3",
+                "value": "4"
+            }
+        ],
+        "bookedDates": []
+    },
+    {
+        "_id": "123459645352K",
+        "name": "Great Room in the heart of New York! ",
+        "assetType": "Entire duplex",
+        "uniqueStay": true,
+        "imgUrls": [
+            "https://images.unsplash.com/photo-1484154218962-a197022b5858?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=874&q=80",
+            "https://a0.muscache.com/im/pictures/e83e702f-ef49-40fb-8fa0-6512d7e26e9b.jpg?aki_policy=large",
+            "https://media.istockphoto.com/photos/modern-living-room-interior-3d-render-picture-id1293762741?s=612x612",
+            "https://images.unsplash.com/photo-1493809842364-78817add7ffb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+        ],
+        "price": 300.00,
+        "summary": "! You will be in a great neighborhood with plenty of shops, restaurants, grocery stores, and dance floors.Situated In Hells Kitchen, my apartment has easy access to Penn Station, Times Square, and the mythical Empire State Building!",
+        "capacity": 2,
+        "amenities": [
+            "TV",
+            "Wifi",
+            "Kitchen",
+            "Pets allowed",
+            "Cooking basics"
+        ],
+        "host": {
+            "_id": "51399393",
+            "fullname": "Lily Duarte",
+            "imgUrl": "https://a0.muscache.com/im/pictures/fab79f25-2e10-4f0f-9711-663cb69dc7d8.jpg?aki_policy=profile_small"
+        },
+        "loc": {
+            "country": "United States",
+            "countryCode": "PT",
+            "address": "New York, United States",
+            "lat": 40.78743999752874,
+            "lng": -73.975960
+        },
+        "reviews": [
+            {
+                "by": {
+                    "fullname": "Christina",
+                    "_id": "23d23dsf7064",
+                    "imgUrl": "https://a0.muscache.com/im/pictures/fab79f25-2e10-4f0f-9711-663cb69dc7d8.jpg?aki_policy=profile_small"
+                },
+                "name": "Christina",
+                "createdAt": "23/10/20",
+                "txt": "Absolutely love the location! You’re only a few blocks away from Times Square and also continently near a subway entrance. The restroom was really nice and seemed like it had just been renovated or kept very clean. The living room sofa is extremely uncomfortable BUT there is an air mattress to make up for that. I highly recommend sleeping on the air mattress NOT SOFA if you have a larger party that needs 3 beds. Both bedrooms were great, clean and spacious. ",
+                "id": "1348674568",
+                "cleanliness": "5",
+                "communication": "4",
+                "checkIn": "4",
+                "accuracy": "3",
+                "location": "4",
+                "value": "2"
+            },
+            {
+                "by": {
+                    "fullname": "Pat",
+                    "_id": "23d23dsf7qwqw",
+                    "imgUrl": "https://a0.muscache.com/im/pictures/fab79f25-2e10-4f0f-9711-663cb69dc7d8.jpg?aki_policy=profile_small"
+                },
+                "createdAt": "20/07/19",
+                "txt": "A very spacious and well furnished spot in the city! The location is stellar. Would definitely stay again",
+                "id": "13486412564",
+                "cleanliness": "4",
+                "communication": "5",
+                "checkIn": "4",
+                "accuracy": "4",
+                "location": "5",
+                "value": "5"
+            },
+            {
+                "by": {
+                    "fullname": "Bruce",
+                    "_id": "23l3dsf7qwqw",
+                    "imgUrl": "https://a0.muscache.com/im/pictures/fab79f25-2e10-4f0f-9711-663cb69dc7d8.jpg?aki_policy=profile_small"
+                },
+                "createdAt": "03/05/20",
+                "txt": "LOCATION, LOCATION, LOCATION. Very clean, very comfortable. All amenities and more that you need for a short stay. Only downside was the A/C. It was hot and very humid on our weekend stay. If the A/C was working correctly yhen we would not have had any negative comments whatsoever.",
+                "id": "134gffd86798",
+                "cleanliness": "4",
+                "communication": "4",
+                "checkIn": "5",
+                "accuracy": "4",
+                "location": "5",
+                "value": "5"
+            },
+            {
+                "by": {
+                    "fullname": "Anne",
+                    "_id": "23l3dsfsa7qwqw",
+                    "imgUrl": "https://a0.muscache.com/im/pictures/fab79f25-2e10-4f0f-9711-663cb69dc7d8.jpg?aki_policy=profile_small"
+                },
+                "createdAt": "02/11/20",
+                "txt": "Great location - easy walking to Times Square, Central Park, Broadway, and more. The apartment is clean, adorable, and fit 4 adults very well. Check-in and check-out were seamless. Definitely recommend!",
+                "id": "1546511144fds",
+                "cleanliness": "3",
+                "communication": "4",
+                "checkIn": "5",
+                "accuracy": "4",
+                "location": "5",
+                "value": "3"
+            },
+            {
+                "by": {
+                    "fullname": "Jonathan",
+                    "_id": "23l3pllsa7qwqw",
+                    "imgUrl": "https://a0.muscache.com/im/pictures/fab79f25-2e10-4f0f-9711-663cb69dc7d8.jpg?aki_policy=profile_small"
+                },
+                "createdAt": "15/07/21",
+                "txt": "In summary, our stay at this place was fairly good. It was accessible, comfortable, and the apartment represented accurately within the AirBnB platform. You and your group will have privacy and we weren't concerned about noise coming into or out of the apartment.",
+                "id": "1564987fds231",
+                "cleanliness": "3",
+                "communication": "3",
+                "checkIn": "5",
+                "accuracy": "4",
+                "location": "5",
+                "value": "3"
+            },
+            {
+                "by": {
+                    "fullname": "Riley",
+                    "_id": "23l3pll7qwqw",
+                    "imgUrl": "https://a0.muscache.com/im/pictures/fab79f25-2e10-4f0f-9711-663cb69dc7d8.jpg?aki_policy=profile_small"
+                },
+                "createdAt": "23/10/20",
+                "txt": "Location was great and place was nice. One of the beds is super hard and has a weird sink hole in it but other than that, we enjoyed our stay.",
+                "id": "4561302",
+                "cleanliness": "4",
+                "communication": "3",
+                "checkIn": "5",
+                "accuracy": "5",
+                "location": "4",
+                "value": "4"
+            }
+        ],
+        "bookedDates": []
+    },
+    {
+        "_id": "1234596gdf45352K",
+        "name": "Canal house - Heart of Amsterdam ",
+        "assetType": "Entire loft",
+        "uniqueStay": true,
+        "imgUrls": [
+            "https://images.unsplash.com/photo-1484154218962-a197022b5858?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=874&q=80",
+            "https://a0.muscache.com/im/pictures/e83e702f-ef49-40fb-8fa0-6512d7e26e9b.jpg?aki_policy=large",
+            "https://media.istockphoto.com/photos/modern-living-room-interior-3d-render-picture-id1293762741?s=612x612",
+            "https://images.unsplash.com/photo-1493809842364-78817add7ffb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+        ],
+        "price": 215.00,
+        "summary": "! You will be in a great neighborhood with plenty of shops, restaurants, grocery stores, and dance floors.Situated In Hells Kitchen, my apartment has easy access to Penn Station, Times Square, and the mythical Empire State Building!",
+        "capacity": 4,
+        "amenities": [
+            "Free parking on premises",
+            "Hot tub",
+            "TV",
+            "Wifi",
+            "Kitchen",
+            "Pets allowed",
+            "Cooking basics"
+        ],
+        "host": {
+            "_id": "u102",
+            "fullname": "Houston Anderson",
+            "imgUrl": " "
+        },
+        "loc": {
+            "country": "Netherlands",
+            "countryCode": "NT",
+            "address": "Amsterdam, Noord Holland, Netherlands",
+            "lat": 52.370894938271775,
+            "lng": 4.884357915791814
+        },
+        "reviews": [
+            {
+                "by": {
+                    "fullname": "Caroline",
+                    "_id": "23l3pll7cvqwqw",
+                    "imgUrl": "https://a0.muscache.com/im/pictures/fab79f25-2e10-4f0f-9711-663cb69dc7d8.jpg?aki_policy=profile_small"
+                },
+                "createdAt": "23/10/20",
+                "txt": "Absolutely love the location! You’re only a few blocks away from Times Square and also continently near a subway entrance. The restroom was really nice and seemed like it had just been renovated or kept very clean. The living room sofa is extremely uncomfortable BUT there is an air mattress to make up for that. I highly recommend sleeping on the air mattress NOT SOFA if you have a larger party that needs 3 beds. Both bedrooms were great, clean and spacious. ",
+                "id": "1348674568",
+                "cleanliness": "5",
+                "communication": "4",
+                "checkIn": "4",
+                "accuracy": "3",
+                "location": "4",
+                "value": "2"
+            },
+            {
+                "by": {
+                    "fullname": "Pat",
+                    "_id": "23l3pll7cvqwqw",
+                    "imgUrl": "https://a0.muscache.com/im/pictures/fab79f25-2e10-4f0f-9711-663cb69dc7d8.jpg?aki_policy=profile_small"
+                },
+                "createdAt": "20/09/21",
+                "txt": "My husband and I had an amazing stay here! Take and Eline were very accommodating and helpful. The apartment is clean, comfortable, and spacious with an amazing canal view. We would definitely stay again!",
+                "id": "1348641256fdsdfs4",
+                "cleanliness": "4",
+                "communication": "5",
+                "checkIn": "5",
+                "accuracy": "5",
+                "location": "4",
+                "value": "5"
+            },
+            {
+                "by": {
+                    "fullname": "Per Andreas",
+                    "_id": "23l3pll7cvqwqw",
+                    "imgUrl": "https://a0.muscache.com/im/pictures/fab79f25-2e10-4f0f-9711-663cb69dc7d8.jpg?aki_policy=profile_small"
+                },
+                "createdAt": "03/09/20",
+                "txt": "This was a great place to stay, walking ditstance to the city and train station. The hosts was helpfull and eady to communicate with. The view over the canal was great, i really do recomend this for an authentic experience",
+                "id": "134gffd86gfd798",
+                "cleanliness": "4",
+                "communication": "3",
+                "checkIn": "3",
+                "accuracy": "4",
+                "location": "5",
+                "value": "4"
+            },
+            {
+                "by": {
+                    "fullname": "Clarice",
+                    "_id": "23l3plsdal7cvqwqw",
+                    "imgUrl": "https://a0.muscache.com/im/pictures/fab79f25-2e10-4f0f-9711-663cb69dc7d8.jpg?aki_policy=profile_small"
+                },
+                "createdAt": "02/11/20",
+                "txt": "Beautiful space, great location wonderful hosts. Highly recommended",
+                "id": "154651114sda4fds",
+                "cleanliness": "3",
+                "communication": "4",
+                "checkIn": "5",
+                "accuracy": "4",
+                "location": "5",
+                "value": "3"
+            },
+            {
+                "by": {
+                    "fullname": "Kat",
+                    "_id": "23l3poil7cvqwqw",
+                    "imgUrl": "https://a0.muscache.com/im/pictures/fab79f25-2e10-4f0f-9711-663cb69dc7d8.jpg?aki_policy=profile_small"
+                },
+                "createdAt": "15/07/21",
+                "txt": "Take & Eline have the most perfect apartment to stay at on a quiet historic street in Amsterdam. Would stay here again in a heartbeat.",
+                "id": "1sadd7fds231",
+                "cleanliness": "5",
+                "communication": "4",
+                "checkIn": "4",
+                "accuracy": "4",
+                "location": "5",
+                "value": "5"
+            },
+            {
+                "by": {
+                    "fullname": "Jason",
+                    "_id": "23l3dsapoil7cvqwqw",
+                    "imgUrl": "https://a0.muscache.com/im/pictures/fab79f25-2e10-4f0f-9711-663cb69dc7d8.jpg?aki_policy=profile_small"
+                },
+                "createdAt": "16/04/20",
+                "txt": "My husband and I stayed here for the first week of our honeymoon and it could not have been more perfect. Take is extremely kind and respectful, and gave us great recommendations for non-tourist heavy areas which we appreciated. The location is PERFECT! We were right in the middle of everything, and the view of the canal from the windows is gorgeous! We spent so much time walking around the beautiful city and it felt like coming home when we returned to the apartment. We will definitely be returning!!",
+                "id": "4561das302",
+                "cleanliness": "4",
+                "communication": "4",
+                "checkIn": "5",
+                "accuracy": "5",
+                "location": "4",
+                "value": "5"
+            }
+        ],
+        "bookedDates": []
+    }
+]

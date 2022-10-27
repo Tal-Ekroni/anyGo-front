@@ -1,0 +1,24 @@
+.stay-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 24px;
+
+    @include for-mobile-layout {
+        grid-template-columns: repeat(1, minmax(170px, 1fr));
+    }
+    @include for-narrow-layout {
+        grid-template-columns: repeat(2, minmax(170px, 1fr));
+    }
+    @include for-normal-layout {
+        grid-template-columns: repeat(3, minmax(200px, 1fr));
+    }
+    @include for-wide-layout {
+        grid-template-columns: repeat(4, minmax(250px, 1fr));
+    }
+    @include for-wider-layout {
+        grid-template-columns: repeat(4, minmax(200px, 1fr));
+    }
+    @include for-extra-wide-layout {
+        grid-template-columns: repeat(4, minmax(300px, 1fr));
+    }
+}

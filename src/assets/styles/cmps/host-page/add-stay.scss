@@ -1,0 +1,203 @@
+.add-stay-form-container {
+    width: 100%;
+    margin-top: 20px;
+    min-height: 50vh;
+    justify-content: center;
+    .add-stay-form {
+        width: 100%;
+        .add-basic-info-container {
+            width: 100%;
+            gap: 65px;
+            .stay-name-input {
+                width: 300px;
+            }
+            .add-form-line {
+                width: 33%;
+                & :first-child {
+                    margin-inline-end: 20px;
+                }
+                .add-line {
+                    font-family: circular-bold;
+                }
+            }
+        }
+        .add-stay-imgs-container {
+            height: 350px;
+            width: 100%;
+            justify-content: center;
+        }
+        .add-stay-imgs {
+            width: 100%;
+            overflow: hidden;
+            border-radius: 15px;
+            gap: 2%;
+            .primary-img {
+                background-color: darken($color: #fff, $amount: 15%);
+                height: 350px;
+                width: 48%;
+                input {
+                    width: 100%;
+                    height: 100%;
+                    opacity: 0;
+                    transform: translateY(-100%);
+                }
+                &:hover {
+                    background-color: darken($color: #fff, $amount: 25%);
+                }
+            }
+            .upload-img-txt {
+                width: 100%;
+                height: 100%;
+                justify-content: center;
+                label {
+                    font-size: 1.5rem;
+                    font-family: circular-book;
+                    text-align: center;
+                }
+            }
+            .add-small-imgs-container {
+                height: 350px;
+                width: 24%;
+                input {
+                    z-index: -1;
+                    width: 100%;
+                    height: 100%;
+                    opacity: 0;
+                    transform: translateY(-100%);
+                }
+                .new-stay-img {
+                    background-color: darken($color: #fff, $amount: 15%);
+                    height: 170px;
+                    &:hover {
+                        background-color: darken($color: #fff, $amount: 25%);
+                    }
+                }
+            }
+        }
+        .add-form-line {
+            width: 33%;
+            &.price :first-child {
+                margin-inline-end: 20px;
+            }
+        }
+
+        .add-basic-info-container {
+            width: 100%;
+            height: 50px;
+        }
+        .add-stay-details-container {
+            width: 100%;
+            .add-form-line {
+                width: 33%;
+                & :first-child {
+                    margin-inline-end: 20px;
+                }
+                .add-line {
+                    font-family: circular-bold;
+                }
+            }
+        }
+        .add-stay-summary {
+            width: 100%;
+            margin-top: 30px;
+            .add-desc-line {
+                width: 100%;
+                .add-line {
+                    font-family: circular-bold;
+                }
+            }
+        }
+        .add-amenities-container {
+            height: 200px;
+            width: 100%;
+            .amenities-list {
+                height: 170px;
+                width: 100%;
+                flex-wrap: wrap;
+                .add-amenities-line {
+                    color: black;
+                    width: 20%;
+                    font-size: 1.2rem;
+                    line-height: 1.3rem;
+                    & :hover {
+                        cursor: pointer;
+                    }
+                    label {
+                        width: 200px;
+                    }
+                }
+            }
+        }
+        .MuiInput-root {
+            width: 300px;
+            & input {
+                width: 100%;
+            }
+        }
+    }
+    .add-stay-btn-container {
+        justify-content: center;
+        width: 100%;
+        .checkout-btn-container {
+            max-width: 300px;
+            position: relative;
+            width: 100%;
+            height: 48px;
+            padding: 0 0;
+            margin: 0 0;
+            margin-top: 15px;
+            cursor: pointer;
+            border: none;
+            display: grid;
+            grid-template: repeat(10, 1fr) / repeat(10, 1fr);
+            @for $i from 0 to 10 {
+                .cell:nth-child(10n + #{$i + 1}):hover ~ .content {
+                    --positionX: #{$i};
+                }
+
+                .cell:nth-child(n + #{10 * $i + 1}):nth-child(-n + #{10 * ($i + 1)}):hover ~ .content {
+                    --positionY: #{$i};
+                }
+            }
+            .cell {
+                width: 100%;
+                height: 100%;
+                z-index: 1;
+            }
+            .checkout-btn {
+                background-color: transparent;
+                border-radius: 8px;
+                & * {
+                    font-size: 1rem;
+                    font-family: circular-bold;
+                    color: $clr1;
+                }
+            }
+        }
+    }
+    .content {
+        --positionX: 0;
+        --positionY: 5;
+
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        border-radius: 8px;
+
+        background-image: radial-gradient(
+            circle at calc((0 + var(--positionX, 0)) * 10%) calc((0 + var(--positionY, 0)) * 5%),
+            rgb(241, 37, 75) 0%,
+            rgb(230, 30, 77) 27.5%,
+            rgb(227, 28, 95) 40%,
+            rgb(215, 4, 102) 57.5%,
+            rgb(189, 30, 89) 75%,
+            rgb(189, 30, 89) 100%
+        );
+    }
+}

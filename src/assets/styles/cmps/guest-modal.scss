@@ -1,0 +1,82 @@
+.guest-modal {
+    position: absolute;
+    width: 390px;
+    height: 245px;
+    border-radius: 32px;
+    background-color: $clr1;
+    z-index: 3;
+    top: 10px;
+    transform: translateX(-250%);
+    transform: translatey(25%);
+    overflow: hidden;
+    // margin: 0 auto;
+    padding: 16px 32px;
+    font-family: circular-light;
+    border: 1px solid #00000030;
+
+    p {
+        font-family: unset;
+    }
+    .guest-amount-count {
+        font-family: circular-light;
+        font-size: 16px;
+    }
+    .guest-type {
+        font-family: circular-medium;
+        font-size: 16px;
+    }
+    .guest-desc {
+        font-size: 14px;
+        font-family: circular-light;
+    }
+    .screen {
+        position: fixed;
+        inset: 0;
+        z-index: -1;
+        height: 9999px;
+        width: 9999px;
+    }
+
+    & .guest-card {
+        z-index: 5;
+        background-color: white;
+        padding-top: 16px;
+        padding-bottom: 16px;
+        padding-right: 4px;
+        &:not(:last-child) {
+            border-bottom: 1px solid rgb(235, 235, 235);
+        }
+        & .guest-amount {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            width: 104px;
+            height: 32px;
+            & .guest-btn {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                color: $clr2;
+                border-radius: 50%;
+                background: rgb(255, 255, 255);
+                border: 1px solid rgb(176, 176, 176);
+                color: rgb(113, 113, 113);
+                width: 32px;
+                height: 32px;
+                flex-grow: 0;
+                flex-grow: 0;
+                flex-shrink: 0;
+                cursor: pointer;
+                margin: 0px;
+                padding: 0px;
+                text-align: center;
+                &.zero {
+                    cursor: not-allowed;
+                    color: rgb(235, 235, 235);
+                    border-color: rgb(235, 235, 235);
+                    background: rgb(255, 255, 255);
+                }
+            }
+        }
+    }
+}

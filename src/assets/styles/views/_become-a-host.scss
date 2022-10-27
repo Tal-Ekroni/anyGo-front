@@ -1,0 +1,60 @@
+.be-host-container {
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    z-index: 10;
+    background-color: #fff;
+    .be-host-img-container {
+        height: 100%;
+    }
+    .be-host-left-container {
+        width: 50%;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 50%;
+        z-index: 11;
+        background-color: rgb(17, 17, 17);
+        justify-content: center;
+    }
+    .be-host-txt-container {
+        width: 100%;
+        color: $clr1;
+        & h1 {
+            line-height: 5rem;
+            font-size: 4rem;
+        }
+    }
+    .be-host-logo {
+        position: absolute;
+        justify-content: center;
+        top: 50px;
+        left: 50px;
+        // background-color: lightgrey;
+        height: 60px;
+        width: 60px;
+        border-radius: 50%;
+        &:hover {
+            cursor: pointer;
+            background-color: $clr10;
+        }
+    }
+    .be-host-btn-container {
+        justify-content: center;
+        width: 100%;
+        .checkout-btn-container {
+            width: 200px;
+            background-color: transparent;
+            border-radius: 8px;
+            & * {
+                font-size: 1rem;
+                font-family: circular-bold;
+                color: $clr1;
+            }
+        }
+    }
+}
